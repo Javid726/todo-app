@@ -1,0 +1,37 @@
+.todoWrapper {
+  width: 70%;
+}
+
+.formTodo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputTodo {
+  width: 70%;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+  transition: all 0.4s;
+}
+
+/* .inputTodo:focus {
+  box-shadow: 1px 1px 24px 4px rgba(71, 242, 255, 1);
+} */
+
+.buttonTodo {
+  background-color: #4e03fc;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  font-family: inherit;
+  cursor: pointer;
+}
