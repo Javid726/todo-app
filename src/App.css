@@ -16,8 +16,9 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, #ff1100c4, #d87871);
+  /* background-image: linear-gradient(to bottom right, #ff1100c4, #d87871); */
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
 }
 
 #root {

@@ -12,14 +12,17 @@ const TodoContainer = props => {
 
   return (
     <Card className={classes.outsideCard}>
-      {assignedTodos &&
+      {assignedTodos.length > 0 ? (
         assignedTodos.map(todo => (
           <Todoitem
             removoTodosContainer={props.removoTodos}
             todo={todo}
             key={todo.id}
           />
-        ))}
+        ))
+      ) : (
+        <p className={classes.paragraph}>Nothing to see here yet!</p>
+      )}
     </Card>
   );
 };

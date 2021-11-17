@@ -21,9 +21,9 @@
   transition: all 0.4s;
 }
 
-/* .inputTodo:focus {
-  box-shadow: 1px 1px 24px 4px rgba(71, 242, 255, 1);
-} */
+.inputTodo:focus {
+  box-shadow: 1px 1px 24px 4px rgb(20, 20, 20, 0.4);
+}
 
 .buttonTodo {
   background-color: #4e03fc;
@@ -33,5 +33,6 @@
   border-radius: 3px;
   font-size: 1.6rem;
   font-family: inherit;
+  font-weight: 700;
   cursor: pointer;
 }
